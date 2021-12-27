@@ -1,0 +1,11 @@
+first file in squash branch
+here, i will create multiple commits, along with commit numbers, and you can squash this branch using interactive rebasing,
+git rebase -i <branch_name>
+and then, later you can merge it into any other branch if you want.
+Squash and rebase is an option of few clicks on GitHub, however this CLI action  will give a proper understanding of how it works under the hood.
+in GitHub, when merging a pull request with squash and rebase option, it will squash the commits into a single commit for that specified branch, and then it will rebase it into the master branch, and then merge it.
+it is used in production environments where people do not want extra merge commits created by 3 way merge or recursive merge stratergy and want to minimize the number of commits once the development is finalized. Those other commits in between will be garbage collected, not sure when I am typing this, but most probably. 
+When, we run the command of interactive rebase, the command will give us a prompt of commits and a table, where there will be pick in the first column, we will have to rename all the picks with squash or s and keep pick as the last commit we want to store all the commit messages.
+also, when using the interactive rebse we will have to use the commit hash, not the branch name!
+Thank you!
+
