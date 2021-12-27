@@ -9,3 +9,4 @@ When, we run the command of interactive rebase, the command will give us a promp
 also, when using the interactive rebse we will have to use the commit hash, not the branch name!
 Thank you!
 
+Adding thank you for commit
