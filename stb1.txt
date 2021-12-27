@@ -1,0 +1,1 @@
+one file and first file in stash branch, other changes will not be comitted by me, you can create files and not commit them, rather stash them and checkout into other branches and then get back to this branch and unstash the changes using git stash pop command. Make sure to test this and see in action.
