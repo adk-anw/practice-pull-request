@@ -1,1 +1,2 @@
 Second file in the repository
+added a new line to file2.txt
